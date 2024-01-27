@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-27T13:40:25.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="t2iE7Gt76eKb2-DmKPYQ" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-27T13:45:44.907Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="mGCMPi_yjAvcZq7RYOGJ" version="23.0.0" type="github">
   <diagram name="第 1 页" id="yZunspwBwA8Hu7tk7gx-">
-    <mxGraphModel dx="1924" dy="3977" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="4777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,6 +219,42 @@
             <mxPoint x="228" y="-2005" as="sourcePoint" />
             <mxPoint x="392" y="-2005" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4g_r35mxg7f-W7c9p7ji-49" target="4g_r35mxg7f-W7c9p7ji-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4g_r35mxg7f-W7c9p7ji-49" target="4g_r35mxg7f-W7c9p7ji-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4g_r35mxg7f-W7c9p7ji-49" target="4g_r35mxg7f-W7c9p7ji-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4g_r35mxg7f-W7c9p7ji-49" target="4g_r35mxg7f-W7c9p7ji-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4g_r35mxg7f-W7c9p7ji-49" target="4g_r35mxg7f-W7c9p7ji-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-49" value="TDC平台" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-324" y="-3449" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-50" value="WALM组件" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=77;height=29;" vertex="1" parent="1">
+          <mxGeometry x="-181" y="-3649" width="340" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-53" value="支持高级Chart渲染" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-122" y="-3611" width="129" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-54" value="支持应用之间动态依赖管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-122" y="-3535" width="129" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-55" value="支持应用状态实时同步" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-122" y="-3458" width="129" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-56" value="支持细粒度认证与授权" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-122" y="-3388" width="129" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-57" value="支持应用参数详细检索" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-122" y="-3310" width="129" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
