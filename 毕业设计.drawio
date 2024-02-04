@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T13:47:38.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="21fv9yByE45WSNPrNWQr" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T17:24:07.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="Q6IjdKWypa7hyeHlAQ0v" version="23.0.0" type="github">
   <diagram name="第 1 页" id="yZunspwBwA8Hu7tk7gx-">
-    <mxGraphModel dx="1426" dy="4661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="5156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -375,18 +375,6 @@
         <mxCell id="4g_r35mxg7f-W7c9p7ji-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4g_r35mxg7f-W7c9p7ji-92" target="4g_r35mxg7f-W7c9p7ji-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4g_r35mxg7f-W7c9p7ji-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="697" y="-351" as="sourcePoint" />
-            <mxPoint x="694" y="-261" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="697" y="-350" />
-              <mxPoint x="699" y="-350" />
-              <mxPoint x="699" y="-305" />
-              <mxPoint x="695" y="-305" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4g_r35mxg7f-W7c9p7ji-164" value="自定义资源（CR）" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="31" y="-917" width="150" height="75" as="geometry" />
         </mxCell>
@@ -452,6 +440,39 @@
         </mxCell>
         <mxCell id="4g_r35mxg7f-W7c9p7ji-192" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;监视&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="127" y="-787" width="52" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-193" value="ReleaseConfigController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-294" y="-447" width="427" height="277" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-194" value="&lt;div&gt;+ workingQueue: workqueue.DelayingInterface&lt;/div&gt;&lt;div&gt;+ reloadDependingReleaseWorkingQueue:workqueue.DelayingInterface&lt;/div&gt;&lt;div&gt;+ kafkaWorkingQueue: workqueue.DelayingInterface&lt;/div&gt;&lt;div&gt;+ k8sCache: k8s.Cache&lt;/div&gt;&lt;div&gt;+ releaseUseCase: release.UseCase&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ kafka: kafka.Kafka&lt;/div&gt;&lt;div&gt;+ retryReloadDelayTimeSecond: int64&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-193">
+          <mxGeometry y="29" width="427" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-195" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-193">
+          <mxGeometry y="149" width="427" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-196" value="&lt;div&gt;+ Start(stopChan &amp;lt;-chan struct{})&lt;/div&gt;&lt;div&gt;+ enqueueReleaseConfig(obj interface{})&lt;/div&gt;&lt;div&gt;+ worker()&lt;/div&gt;&lt;div&gt;+ reloadDependingReleaseWorker()&lt;/div&gt;&lt;div&gt;+ syncReleaseConfig(releaseConfigKey string)&lt;/div&gt;&lt;div&gt;+ enqueueDependingRelease(obj interface{})&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-193">
+          <mxGeometry y="161" width="427" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-197" value="ReleaseConfig" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-294" y="-114" width="427" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-198" value="&lt;div&gt;+ Labels: map[string]string&lt;/div&gt;&lt;div&gt;+ ConfigValues: map[string]interface{}&lt;/div&gt;&lt;div&gt;+ DependenciesConfigValues: map[string]interface{}&lt;/div&gt;&lt;div&gt;+ Dependencies: map[string]string&lt;/div&gt;&lt;div&gt;+ ChartName: string&lt;/div&gt;&lt;div&gt;+ ChartVersion: string&lt;/div&gt;&lt;div&gt;+ ChartAppVersion: string&lt;/div&gt;&lt;div&gt;+ CreationTimestamp: string&lt;/div&gt;&lt;div&gt;+ OutputConfig: map[string]interface{}&lt;/div&gt;&lt;div&gt;+ Repo: string&lt;/div&gt;&lt;div&gt;+ ChartImage: string&lt;/div&gt;&lt;div&gt;+ IsomateConfig: IsomateConfig&lt;/div&gt;&lt;div&gt;+ ChartWalmVersion: common.WalmChartVersion&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-197">
+          <mxGeometry y="29" width="427" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-199" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-197">
+          <mxGeometry y="231" width="427" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-205" value="Helm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="-404" width="419" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-206" value="&lt;div&gt;- k8sCache: k8s.Cache&lt;/div&gt;&lt;div&gt;- releaseCache: ReleaseCache&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-205">
+          <mxGeometry y="29" width="419" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-207" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-205">
+          <mxGeometry y="73" width="419" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-208" value="&lt;div&gt;+ GetDependencyOutputConfigs(...): map&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ getDependencyOutputConfigsForChartV1(...): map&lt;/div&gt;&lt;div&gt;+ getDependencyOutputConfigsForChartV2(...): map&lt;/div&gt;&lt;div&gt;+ getDependencyMetaForChartV1(...): (WalmChartVersion, DependencyMeta)&lt;/div&gt;&lt;div&gt;+ getOutputConfigValuesForChartV2(...): (WalmChartVersion, map)&lt;/div&gt;&lt;div&gt;+ BuildCompatibleChartWalmVersion(...): WalmChartVersion&lt;/div&gt;&lt;div&gt;+ GetDependencyMetaFromReleaseConfig(...): DependencyMeta&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-205">
+          <mxGeometry y="85" width="419" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
