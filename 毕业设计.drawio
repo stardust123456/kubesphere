@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T13:38:18.941Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="W__L9Up9zT0VSn9g1iP5" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T13:47:38.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="21fv9yByE45WSNPrNWQr" version="23.0.0" type="github">
   <diagram name="第 1 页" id="yZunspwBwA8Hu7tk7gx-">
     <mxGraphModel dx="1426" dy="4661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -430,11 +430,8 @@
             <mxPoint x="122" y="-825" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4g_r35mxg7f-W7c9p7ji-185" value="监视" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="36" y="-785" width="42" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="4g_r35mxg7f-W7c9p7ji-186" value="增删改事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="117" y="-787" width="78" height="26" as="geometry" />
+          <mxGeometry x="7" y="-787" width="78" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4g_r35mxg7f-W7c9p7ji-188" value="Kubernetes API" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-261" y="-700" width="150" height="75" as="geometry" />
@@ -452,6 +449,9 @@
         </mxCell>
         <mxCell id="4g_r35mxg7f-W7c9p7ji-191" value="调整状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-81" y="-686" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-192" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;监视&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="-787" width="52" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
