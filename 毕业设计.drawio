@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T15:09:54.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="ZSPaW1XFwOp_Oqp5U9cg" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T16:30:26.575Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="2cYWVDtktS4AR7eZoFjb" version="23.0.0" type="github">
   <diagram name="第 1 页" id="yZunspwBwA8Hu7tk7gx-">
-    <mxGraphModel dx="2083" dy="4826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="4696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,6 +553,66 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="46" y="-301" as="sourcePoint" />
             <mxPoint x="206" y="-301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-239" value="应用程序生命周期管理组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-106" y="275" width="100" height="523" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-265" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-239">
+          <mxGeometry x="45.5" y="96" width="10" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-269" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-239">
+          <mxGeometry x="46" y="232" width="10" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-270" value="3.convert jsonnet chart to helm native chart&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" target="4g_r35mxg7f-W7c9p7ji-269" parent="4g_r35mxg7f-W7c9p7ji-239">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="178" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="51" y="175" />
+              <mxPoint x="81" y="175" />
+              <mxPoint x="81" y="257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-242" value="helm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="66" y="274" width="100" height="521" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-272" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-242">
+          <mxGeometry x="45" y="318" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-244" value="Kubernetes" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="225" y="275" width="100" height="523" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-267" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-244">
+          <mxGeometry x="45" y="129" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-274" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-244">
+          <mxGeometry x="45" y="375" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-260" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="272" width="20" height="529" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-261" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4g_r35mxg7f-W7c9p7ji-260">
+          <mxGeometry x="5" y="58" width="10" height="471" as="geometry" />
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-266" value="1.install release" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" target="4g_r35mxg7f-W7c9p7ji-265" parent="1" source="4g_r35mxg7f-W7c9p7ji-260">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-136" y="371" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-268" value="2.get all the dependency release outputConfig" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" target="4g_r35mxg7f-W7c9p7ji-267" parent="1" source="4g_r35mxg7f-W7c9p7ji-265">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-56.55263157894751" y="409" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-273" value="4.install chart" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" target="4g_r35mxg7f-W7c9p7ji-272" parent="1" source="4g_r35mxg7f-W7c9p7ji-239">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41" y="597" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g_r35mxg7f-W7c9p7ji-275" value="5.install k8s native resources&lt;br&gt;ReleaseConfig(CR)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" target="4g_r35mxg7f-W7c9p7ji-274" parent="1" source="4g_r35mxg7f-W7c9p7ji-242">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="655" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
